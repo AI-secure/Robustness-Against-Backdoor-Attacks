@@ -60,7 +60,6 @@ if __name__ == '__main__':
     all_pred = np.zeros((0,2))
     labs = []
     for test_X, test_y in tqdm(testloader):
-        #test_X, test_y = test_X[:2], test_y[:2] # TODO: for debug.
         B = test_X.shape[0]
         pred = model.predict_proba(test_X.view(B,-1))
 

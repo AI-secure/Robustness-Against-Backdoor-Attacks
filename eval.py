@@ -58,7 +58,6 @@ if __name__ == '__main__':
     # Calculate the expectation and bound of p_A and p_B
     pa_exp, pb_exp, is_acc = certificate_over_dataset(model, testloader_poison, PREFIX, args['N_m'], args['sigma'])
     heof_factor = np.sqrt(np.log(1/args['alpha'])/2/args['N_m'])
-    heof_factor = np.sqrt(np.log(1/args['alpha'])/2/1000) #TODO
     pa = np.maximum(1e-8, pa_exp - heof_factor)
     pb = np.minimum(1-1e-8, pb_exp + heof_factor)
 
