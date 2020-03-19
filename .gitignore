@@ -1,0 +1,7 @@
+.*.swp
+.*.swo
+saved_model/*
+raw_data/*
+!.keep
+__pycache__/
+*.pyc
