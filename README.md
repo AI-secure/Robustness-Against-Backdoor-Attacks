@@ -1,6 +1,6 @@
 # Code Repo of *RAB: Provable Robustness Against Backdoor Attacks*
 
-This repo provides the implementation of [provable robustness against backdoor attacks](https://todo).
+This repo provides the implementation of [provable robustness against backdoor attacks](https://arxiv.org/abs/2003.08904).
 
 
 
