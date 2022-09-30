@@ -1,4 +1,4 @@
-joblib==0.14.1
+joblib==1.2.0
 numpy==1.18.2
 Pillow==7.0.0
 pkg-resources==0.0.0
